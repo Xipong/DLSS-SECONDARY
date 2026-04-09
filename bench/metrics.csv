@@ -1,0 +1,11 @@
+frame_index,cpu_render_ms,cpu_cross_adapter_ms,cpu_end_to_end_ms,gpu_render_ms,gpu_copy_ms,estimated_bandwidth_gbs,cross_adapter_enabled,transfer_succeeded,notes
+0,2.1156,0.0000,2.1175,1.8000,0.0000,0.0000,0,0,"Cross-adapter path disabled by configuration. | camera=viewOrigin=(0, 1.5, 5), jitter=(0, 0.5)"
+1,1.9420,0.0000,1.9439,1.8000,0.0000,0.0000,0,0,"Cross-adapter path disabled by configuration. | camera=viewOrigin=(0.0799966, 1.5, 4.99936), jitter=(0.103252, 0.481618)"
+2,1.8929,0.0000,1.8942,1.8000,0.0000,0.0000,0,0,"Cross-adapter path disabled by configuration. | camera=viewOrigin=(0.159973, 1.5, 4.99744), jitter=(0.202052, 0.427823)"
+3,1.8941,0.0000,1.8952,1.8000,0.0000,0.0000,0,0,"Cross-adapter path disabled by configuration. | camera=viewOrigin=(0.239908, 1.5, 4.99424), jitter=(0.292143, 0.34257)"
+4,1.8831,0.0000,1.8841,1.8000,0.0000,0.0000,0,0,"Cross-adapter path disabled by configuration. | camera=viewOrigin=(0.319782, 1.5, 4.98976), jitter=(0.36964, 0.232129)"
+5,1.9328,0.0000,1.9346,1.8000,0.0000,0.0000,0,0,"Cross-adapter path disabled by configuration. | camera=viewOrigin=(0.399573, 1.5, 4.98401), jitter=(0.431202, 0.104619)"
+6,1.8863,0.0000,1.8875,1.8000,0.0000,0.0000,0,0,"Cross-adapter path disabled by configuration. | camera=viewOrigin=(0.479263, 1.5, 4.97698), jitter=(0.474176, -0.0305827)"
+7,1.8824,0.0000,1.8835,1.8000,0.0000,0.0000,0,0,"Cross-adapter path disabled by configuration. | camera=viewOrigin=(0.55883, 1.5, 4.96867), jitter=(0.496709, -0.163536)"
+8,1.8811,0.0000,1.8820,1.8000,0.0000,0.0000,0,0,"Cross-adapter path disabled by configuration. | camera=viewOrigin=(0.638254, 1.5, 4.9591), jitter=(0.49783, -0.284465)"
+9,1.8944,0.0000,1.8962,1.8000,0.0000,0.0000,0,0,"Cross-adapter path disabled by configuration. | camera=viewOrigin=(0.717514, 1.5, 4.94825), jitter=(0.47749, -0.384477)"

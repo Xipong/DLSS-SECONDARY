@@ -1,0 +1,14 @@
+2026-04-09 13:53:00 [INFO] Starting DLSS secondary-adapter feasibility prototype.
+2026-04-09 13:53:00 [INFO] cross_adapter_enabled=true frame_count=60
+2026-04-09 13:53:00 [WARN] Running on non-Windows host; using synthetic adapter list for documentation-only execution.
+2026-04-09 13:53:00 [INFO] Detected adapters: 2
+2026-04-09 13:53:00 [INFO] name='Synthetic AMD Adapter (for CI)' vendor=0x1002 device=0xffff luid=(0:1) dedicatedVRAMMB=8192 sharedSysMemMB=16384 d3d12=true crossAdapterHeap=true software=false
+2026-04-09 13:53:00 [INFO] name='Synthetic NVIDIA RTX Adapter (for CI)' vendor=0x10de device=0xffff luid=(0:2) dedicatedVRAMMB=12288 sharedSysMemMB=16384 d3d12=true crossAdapterHeap=true software=false
+2026-04-09 13:53:00 [INFO] DLSS-SR required inputs: HDR color, depth, motion vectors, exposure, camera jitter, frame index.
+2026-04-09 13:53:00 [INFO] Prototype focus: measure inter-adapter transfer + sync overhead before attempting Streamline integration.
+2026-04-09 13:53:00 [INFO] DLSS Frame Generation is treated as out-of-scope until optical-flow and latency constraints are proven.
+2026-04-09 13:53:00 [INFO] Renderer initialized on adapter: Synthetic AMD Adapter (for CI)
+2026-04-09 13:53:00 [INFO] CrossAdapterBridge source=Synthetic AMD Adapter (for CI) destination=Synthetic NVIDIA RTX Adapter (for CI) enabled=true
+2026-04-09 13:53:00 [INFO] frame=0 cpu_end_to_end_ms=6.177103 transfer_ok=true note=Transfer completed within provisional budget.
+2026-04-09 13:53:00 [INFO] frame=30 cpu_end_to_end_ms=6.141666 transfer_ok=true note=Transfer completed within provisional budget.
+2026-04-09 13:53:00 [INFO] Run complete. See bench/metrics.csv and bench/run.log.
